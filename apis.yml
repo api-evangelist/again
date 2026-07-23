@@ -1,8 +1,27 @@
 aid: again
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/again.png
 name: Again
-description: 'Again is a company surfaced as a portfolio company of gv, hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Again is a Copenhagen-based carbon-utilization biotech spun out of research
+  from the Danish Technical University, Stanford, and MIT. Rather than storing captured
+  carbon, Again feeds industrial CO2 waste and hydrogen into bioreactors where AI-designed
+  biocatalysts ferment the gas — much like brewing — into commercial-grade acetate and
+  other green chemicals used in adhesives, solvents, plastics, textiles, cosmetics,
+  aromas and flavors, industrial enzymes, proteins, and fertilizers. The company runs
+  carbon-utilization facilities in Copenhagen (CPH-1), Texas City (TXS-1, with Dow and
+  HELM AG), and Porsgrunn, Norway (NOR-1). Again raised a $43M Series A co-led by GV
+  (Google Ventures) and HV Capital in 2024. No public developer API surface was found
+  during API Evangelist enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/again/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -17,6 +36,12 @@ modified: '2026-07-17'
 tags:
 - Company
 - Frontier Tech
+- Biotechnology
+- Carbon Utilization
+- Climate Tech
+- Sustainability
+- Green Chemicals
+- Industrial Biotech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +51,12 @@ maintainers:
 common:
 - type: Website
   url: https://again.bio
+- type: DomainSecurity
+  url: security/again-domain-security.yml
+- type: LLMsTxt
+  url: llms/again-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

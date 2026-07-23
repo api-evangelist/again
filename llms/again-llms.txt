@@ -1,0 +1,12 @@
+# Again
+
+> Again is a Copenhagen-based carbon-utilization biotech that converts industrial CO2 waste into commercial-grade green chemicals using AI-designed biocatalysts and gas fermentation. Added to the API Evangelist network as a company profile; no public developer API surface was found at the time of enrichment.
+
+## Company
+- [Again website](https://again.bio): Advancing a new industrial era — turning industrial CO2 into acetate and other green chemicals via bioreactor fermentation with hydrogen.
+- Contact: info@again.bio
+
+## Notes
+- Sector: frontier-tech / industrial biotechnology / carbon utilization / climate tech.
+- Backed by GV (Google Ventures) and HV Capital (Series A, 2024).
+- No public API, developer portal, OpenAPI, SDKs, or /.well-known discovery surface was found during enrichment (all probed paths returned 404).
